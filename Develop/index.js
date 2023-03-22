@@ -50,6 +50,16 @@ inquirer.prompt(questions)
     fs.writeFileSync("./dist/README.md",`
 # ${answers.title}
 
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
+
+
 ## Description
 ${answers.description}
 
